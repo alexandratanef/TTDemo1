@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: TTDemo1
+  host: ttdemo1
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-4r
+  - Monitoring and Analytics-t9
